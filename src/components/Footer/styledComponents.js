@@ -20,6 +20,12 @@ padding: 2px;
 @media screen and (min-width: 328px){
     flex-wrap: wrap;
 }
+@media screen and (min-width: 928px){
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px){
+    flex-wrap: no-wrap;
+}
 `
 export const Item=styled.li`
 list-style: none;
